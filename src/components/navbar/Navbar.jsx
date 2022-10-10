@@ -3,8 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <nav className='nav'>
-       <link href='#'>TRVL</link>
-       wbiqbqwbi
+      <a href='#' className='nav-logo'>Nav</a>
     </nav>
   )
 }
