@@ -1,8 +1,9 @@
-.hero{
-   text-align: center;
+.hero {
+    text-align: center;
 }
 
-.btns{
+.btns {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
