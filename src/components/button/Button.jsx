@@ -2,9 +2,15 @@ import React from 'react'
 import './Button.css'
 
 function Button() {
-  return (
-    <button className='ghost-btn'></button>
-  )
+    return (
+        <button className='ghost-btn'>Get Started</button>
+    )
 }
 
-export default Button
+function PrButton() {
+    return (
+        <button className='primary-btn'>Watch Trailer</button>
+    )
+}
+
+export {Button , PrButton};
