@@ -1,0 +1,31 @@
+.card {
+    height: 45vh;
+    width: 16vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    border-radius: 6px;
+    box-shadow: rgba(17, 12, 46, 0.1) 0px 48px 100px 0px;
+}
+
+.cardBody {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.cardDes {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardimg{
+background-color: rgb(0, 0, 0);
+height: 80%;
+width: 100%;
+margin-bottom: 15px;
+background-position: center;
+background-size: cover;
+background-repeat: none;
+}
