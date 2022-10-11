@@ -8,7 +8,7 @@ const Card = () => {
       <h5 className='cardTitle'>Nusa Pandia</h5>
       <div className='cardDes'>
         <p className='cardLoc'>indonesia</p>
-        <p className='cardPrice'><span>24$/</span>Person</p>
+        <p className='cardPrice'><span className='cardPricespan'>24$/</span>Person</p>
       </div>
     </div>
   </div>
