@@ -1,15 +1,24 @@
 .ghost-btn{
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 6;
     border: 1px solid rgb(255, 255, 255);
-    padding: 8px 24px;
+    padding: 8px 32px;
 }
 
 .btns {
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+.primary-btn{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6;
+    padding: 8px 32px;
+    border: none;
 }
 
