@@ -4,7 +4,9 @@ import Mainstyle from './Main.module.css'
 
 const Main = () => {
   return (
-    <div>Main</div>
+<section className='main'>
+    
+</section>
   )
 }
 
