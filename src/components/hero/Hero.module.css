@@ -41,3 +41,8 @@ video {
 .herotitle{
     font-size: 80px;
 }
+
+.alttitle{
+    font-weight: 400;
+    font-size: 20px;
+}

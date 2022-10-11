@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className={herostyle.heroContent}>
         <h1 className={herostyle.herotitle}>ADVANTURE AWAITS</h1>
-        <h4>What are you waiting for?</h4>
+        <h4 className={herostyle.alttitle}>What are you waiting for?</h4>
         <div className='btns'>
           <Button />
           <PrButton />
