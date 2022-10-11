@@ -1,0 +1,42 @@
+.main {
+    margin-top: 20vh;
+    padding: 100px;
+    background-color: rgb(246, 246, 246);
+}
+
+.mainheader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.mainTitle {
+    font-size: 40px;
+    font-weight: 700;
+    width: 30%;
+}
+
+.mainright {
+    width: 30%;
+}
+
+.mainHdrAltText {
+    border-left: 3px solid #55a5de;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.mainText {
+    line-height: 160%;
+    color: rgb(151, 151, 151);
+    font-weight: 500;
+}
+
+.MainTtilealttext {
+    font-size: 20px;
+}
+
+.mainSpanTitle {
+    color: #55a5de;
+}
