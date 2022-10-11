@@ -6,7 +6,9 @@ import herostyle from './Hero.module.css';
 const Hero = () => {
   return (
     <section className={herostyle.hero}>
+      <div className={herostyle.overlay}>
       <video src={bgvideo} className='bgvideo' autoPlay loop muted />
+      </div>
       <div className={herostyle.heroContent}>
         <h1>ADVANTURE AWAITS</h1>
         <h4>What are you waiting for?</h4>

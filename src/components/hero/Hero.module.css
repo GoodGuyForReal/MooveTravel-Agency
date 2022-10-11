@@ -26,3 +26,12 @@ video {
     text-align: center;
     color: white;
 }
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+    top: 0;
+    left: 0;
+    position: absolute;
+}

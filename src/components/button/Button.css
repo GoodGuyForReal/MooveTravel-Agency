@@ -7,3 +7,9 @@
     padding: 8px 24px;
 }
 
+.btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
