@@ -12,6 +12,8 @@ video {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    z-index: -2;
+    position: absolute;
 }
 
 .heroContent {
@@ -27,8 +29,15 @@ video {
     color: white;
 }
 
-.overlay{
+.overlays{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.637);
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.herotitle{
+    font-size: 80px;
 }
