@@ -1,6 +1,6 @@
 .main {
     margin-top: 20vh;
-    padding-top: 100px;
+    padding: 100px 0px;
     background-color: rgb(246, 246, 246);
 }
 
@@ -40,15 +40,19 @@
 .mainSpanTitle {
     color: #55a5de;
 }
-.maincardlist{
+
+.maincardlist {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    width: 100%;
 }
-.maincardlistBody{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+.maincardlistBody {
+    display: flex;
+    flex-wrap: wrap;
     gap: 100px;
     align-items: center;
-    
+    justify-content: center;
 }
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../card/Card'
 import Mainstyle from './Main.module.css'
-
+import data from '../util/Data.js';
 
 const Main = () => {
   return (
