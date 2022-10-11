@@ -40,3 +40,14 @@
 .mainSpanTitle {
     color: #55a5de;
 }
+.maincardlist{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.maincardlistBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}

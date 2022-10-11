@@ -16,10 +16,14 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="mainCard">
-         <Card/>
+        <div className={Mainstyle.maincardlist}>
+          <div className={Mainstyle.maincardlistBody}>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
         </div>
-
       </div>
     </section>
   )
