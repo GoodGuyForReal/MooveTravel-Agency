@@ -7,7 +7,7 @@ let date = new Date();
 let day = date.getDate();
 let month = date.getMonth();
 let year = date.getFullYear();
-let alldate =`${year}-${month}-${day}`;
+let alldate = `${year}-${month}-${day}`;
 
 const Hero = () => {
   return (
@@ -20,11 +20,25 @@ const Hero = () => {
         <h4 className={herostyle.alttitle}>What are you waiting for?</h4>
         <div className='btns'>
           <Button />
-          <PrButton />
+
         </div>
-        <div className="searchBox">
-          <input type="text" />
-          <input type="date" className='dateBox'value={alldate} min={alldate} max="2025-12-31"/>
+        <div className={herostyle.SearchBox}>
+          <div className={herostyle.inpBody}>
+            <h3 className={herostyle.inptitle}>Destination</h3>
+            <input type="search" placeholder='Search any place' className={herostyle.desinp} />
+          </div>
+
+          <div className={herostyle.inpBody}>
+            <h3 className={herostyle.inptitle}>When start</h3>
+            <input type="date" className={herostyle.desinp} value={alldate} min={alldate} max="2025-12-31" />
+          </div>
+
+          <div className={herostyle.inpBody}>
+            <h3 className={herostyle.inptitle}>Many People</h3>
+            <input type="number" placeholder='How many people' className={herostyle.desinp} />
+          </div>
+
+          <PrButton />
         </div>
       </div>
     </section>

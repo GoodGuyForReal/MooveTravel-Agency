@@ -48,3 +48,30 @@ video {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+.SearchBox{
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px; 
+    background-color: white;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.desinp{
+    height: 40px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 100%;
+}
+
+.inptitle{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.inpBody{
+    text-align: left;
+}
