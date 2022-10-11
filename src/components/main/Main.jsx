@@ -4,8 +4,8 @@ import Mainstyle from './Main.module.css'
 
 const Main = () => {
   return (
-<section className={Mainstyle.main}>
-    <div className="mainBody">
+    <section className={Mainstyle.main}>
+      <div className={Mainstyle.mainBody}>
         <div className={Mainstyle.mainheader}>
           <h2 className={Mainstyle.mainTitle}>Popular Destinaitons by Moove.</h2>
           <div className={Mainstyle.mainright}>
@@ -15,8 +15,19 @@ const Main = () => {
             </div>
           </div>
         </div>
-    </div>
-</section>
+        <div className="mainCard">
+          <div className="card">
+            <img src="" alt="" />
+            <h5>Nusa Pandia</h5>
+            <div>
+              <p>indonesia</p>
+              <p><span>24$/Person</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
   )
 }
 
