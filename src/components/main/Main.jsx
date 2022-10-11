@@ -18,15 +18,16 @@ const Main = () => {
         </div>
         <div className={Mainstyle.maincardlist}>
           <div className={Mainstyle.maincardlistBody}>
-           
+
             {
-            data.map(data => {
-              const { id, title, image } = data;
-              console.log(data);
-              return(   
-              <Card  key={id} title={title} image={image}/>
-              )
-            })}
+              data.map(data => {
+                const { id, title, image } = data;
+                console.log(data);
+                return (<>
+                  <Card key={id} title={title} image={image} />
+                </>
+                )
+              })}
 
           </div>
         </div>
