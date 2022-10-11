@@ -25,7 +25,7 @@ const Main = () => {
                 //console.log(data);
 
                 let x = [];
-                let s = x.slice(0, 4)
+                let s = x.slice(1,5)
                 x.push(<Card key={id} title={title} image={image} />)
 
                 return s;
