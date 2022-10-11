@@ -4,9 +4,12 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 video {
@@ -20,18 +23,23 @@ video {
 .heroContent {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: max-content;
     top: 0;
     display: flex;
+    gap: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
-.overlays{
-    height: 100%;
+.textcontenthero {
+    width: 60%;
+}
+
+.overlays {
+    height: 75%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -39,39 +47,42 @@ video {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.herotitle{
+.herotitle {
     font-size: 80px;
+    margin-bottom: 30px;
 }
 
-.alttitle{
+.alttitle {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
-.SearchBox{
+.SearchBox {
     display: flex;
+    width: max-content;
     gap: 20px;
-    padding: 20px 40px; 
+    padding: 20px 30px;
     background-color: white;
     border-radius: 6px;
-    align-items: center;
+    align-items: flex-end;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.desinp{
+.desinp {
     height: 40px;
     border: 1px solid lightgray;
-    padding: 10px;
+    padding: 20px;
     width: 100%;
 }
 
-.inptitle{
+.inptitle {
     color: black;
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 5px;
 }
 
-.inpBody{
+.inpBody {
     text-align: left;
 }

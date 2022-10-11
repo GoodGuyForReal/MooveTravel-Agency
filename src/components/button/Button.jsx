@@ -9,7 +9,7 @@ function Button() {
 
 function PrButton() {
     return (
-        <button className='primary-btn'>Watch Trailer</button>
+        <button className='primary-btn'>Search Place</button>
     )
 }
 

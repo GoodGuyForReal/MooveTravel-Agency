@@ -15,13 +15,12 @@ const Hero = () => {
       <div className={herostyle.overlays}>
         <video src={bgvideo} className='bgvideo' autoPlay loop muted />
       </div>
+      
       <div className={herostyle.heroContent}>
-        <h1 className={herostyle.herotitle}>ADVANTURE AWAITS</h1>
-        <h4 className={herostyle.alttitle}>What are you waiting for?</h4>
-        <div className='btns'>
-          <Button />
-
-        </div>
+        <div className={herostyle.textcontenthero}>
+        <h1 className={herostyle.herotitle}>Explore the Beauty of Journey</h1>
+        <h4 className={herostyle.alttitle}>Travelling isn't always about running from tings, sometimes it's about running into what you truly want</h4>
+       </div>
         <div className={herostyle.SearchBox}>
           <div className={herostyle.inpBody}>
             <h3 className={herostyle.inptitle}>Destination</h3>
@@ -30,7 +29,7 @@ const Hero = () => {
 
           <div className={herostyle.inpBody}>
             <h3 className={herostyle.inptitle}>When start</h3>
-            <input type="date" className={herostyle.desinp} value={alldate} min={alldate} max="2025-12-31" />
+            <input type="date" className={herostyle.desinp}  min={alldate} max="2025-12-31" />
           </div>
 
           <div className={herostyle.inpBody}>
