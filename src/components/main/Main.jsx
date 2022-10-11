@@ -17,11 +17,13 @@ const Main = () => {
         </div>
         <div className="mainCard">
           <div className="card">
-            <img src="" alt="" />
-            <h5>Nusa Pandia</h5>
-            <div>
-              <p>indonesia</p>
-              <p><span>24$/Person</span></p>
+            <div className="cardBody">
+              <img src="" alt="" />
+              <h5>Nusa Pandia</h5>
+              <div>
+                <p>indonesia</p>
+                <p><span>24$/Person</span></p>
+              </div>
             </div>
           </div>
         </div>
