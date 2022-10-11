@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../card/Card'
 import Mainstyle from './Main.module.css'
 
 
@@ -16,16 +17,7 @@ const Main = () => {
           </div>
         </div>
         <div className="mainCard">
-          <div className="card">
-            <div className="cardBody">
-              <img src="" alt="" />
-              <h5>Nusa Pandia</h5>
-              <div>
-                <p>indonesia</p>
-                <p><span>24$/Person</span></p>
-              </div>
-            </div>
-          </div>
+         <Card/>
         </div>
 
       </div>
