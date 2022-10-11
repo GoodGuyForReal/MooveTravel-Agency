@@ -6,6 +6,7 @@
 .hero {
     height: 94vh;
     width: 100%;
+   
 }
 
 video {
@@ -32,7 +33,7 @@ video {
 .overlays{
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
