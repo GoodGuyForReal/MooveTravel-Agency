@@ -7,7 +7,7 @@ let date = new Date();
 let day = date.getDate();
 let month = date.getMonth();
 let year = date.getFullYear();
-let alldate =`"${year}-${month}-${day}"`;
+let alldate =`${year}-${month}-${day}`;
 
 const Hero = () => {
   return (
