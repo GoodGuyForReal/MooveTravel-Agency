@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../card/Card'
 import Mainstyle from './Main.module.css'
-import data from '../util/Data.js';
+import data from '../util/data.js'
 
 const Main = () => {
   return (
@@ -18,10 +18,16 @@ const Main = () => {
         </div>
         <div className={Mainstyle.maincardlist}>
           <div className={Mainstyle.maincardlistBody}>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+           
+            {
+            data.map(data => {
+              const { id, title, image } = data;
+              console.log(data);
+              return(   
+              <Card  key={id} title={title} image={image}/>
+              )
+            })}
+
           </div>
         </div>
       </div>

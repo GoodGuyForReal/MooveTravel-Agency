@@ -21,13 +21,10 @@
 }
 
 .cardimg{
-background-color: rgb(0, 0, 0);
 height: 14rem;
 width: 100%;
 margin-bottom: 15px;
-background-position: center;
-background-size: cover;
-background-repeat: none;
+object-fit: cover;
 }
 
 .cardTitle{
