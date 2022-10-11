@@ -23,14 +23,12 @@ const Main = () => {
               data.map(data => {
                 const { id, title, image } = data;
                 //console.log(data);
-                let maincards = [];
+                
 
-                for (let i = 0; i < 4; i++) {
-                  const item = data[i];
-                  maincards.push(<Card key={item.id} title={item.title} image={item.image} />)
-
+                for (let i = 0; i < 4 ; i++) {
+                   <Card key={id[i]} title={title[i]} image={image[i]} />
                 }
-                return maincards;
+                return
 
               })}
 
