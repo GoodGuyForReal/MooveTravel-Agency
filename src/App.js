@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero';
 import Main from './components/main/Main';
 import TextSection from './components/sectiontext/TextSection';
 import C from './components/searchcarsec/C';
+import Mobile from './components/mobileapp/Mobile';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Main />
       <TextSection/>
       <C/>
+      <Mobile/>
     </div>
   );
 }
