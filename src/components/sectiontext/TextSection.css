@@ -5,7 +5,7 @@
 }
 
 .textSecBody{
-    padding: 60px;
+    padding: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,6 @@
 
 .TextSecTitle{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 160%;
 }
