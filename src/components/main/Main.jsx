@@ -22,10 +22,8 @@ const Main = () => {
             {
               data.map(data => {
                 const { id, title, image } = data;
-                //console.log(data);
-                
+                //console.log(data);        
                 return (<Card key={id} title={title} image={image} />)
-
               })}
 
           </div>
