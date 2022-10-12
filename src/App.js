@@ -6,6 +6,7 @@ import Main from './components/main/Main';
 import TextSection from './components/sectiontext/TextSection';
 import C from './components/searchcarsec/C';
 import Mobile from './components/mobileapp/Mobile';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TextSection/>
       <C/>
       <Mobile/>
+      <Footer/>
     </div>
   );
 }

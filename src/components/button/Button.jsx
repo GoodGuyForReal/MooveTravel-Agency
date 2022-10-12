@@ -17,4 +17,21 @@ function PrButton() {
     )
 }
 
-export {Button , PrButton};
+
+function GooglePlay() {
+    return (
+        <div className="GooglePlay">
+        <button className='GooglePlaybtn'>Google Play Store</button>
+        </div>
+    )
+}
+
+function AppStore() {
+    return (
+        <div className="AppStore">
+        <button className='AppStorebtn'>App Store</button>
+        </div>
+    )
+}
+
+export {Button , PrButton ,GooglePlay , AppStore};

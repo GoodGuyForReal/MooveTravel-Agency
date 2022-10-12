@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, PrButton } from '../button/Button.jsx';
+import {  PrButton } from '../button/Button.jsx';
 import bgvideo from '../assets/bg-video.mp4'
 import herostyle from './Hero.module.css';
 
