@@ -1,10 +1,20 @@
 .textSection {
-    height: 80vh;
-    background-color: #55a5de;
+    height: max-content;
+    background-color: #389de5;
     color: rgb(255, 255, 255);
 }
 
+.textSecBody{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
 .TextSecTitle{
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 160%;
 }
