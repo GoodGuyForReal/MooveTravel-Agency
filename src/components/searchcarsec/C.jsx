@@ -18,7 +18,7 @@ const C = () => {
                 </div>
                 <div className='CbR'>
                     <div className='CvB'>
-                    <video src={CVideo} autoPlay loop muted className='bgvideo'></video>
+                    <video src={CVideo} autoPlay loop muted className='bgvideoSearch'></video>
                     </div>
                 </div>
             </div>

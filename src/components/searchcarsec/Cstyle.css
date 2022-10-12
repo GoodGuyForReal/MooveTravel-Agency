@@ -2,6 +2,7 @@
     height: max-content;
     display: flex;
     align-items: center;
+    height: 90vh;
 }
 
 .Cbody {
@@ -45,7 +46,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
 }
 
-.bgvideo{
+.bgvideoSearch{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -55,16 +56,23 @@
 @media (max-width:1100px) {
     .Cbody {
         grid-template-columns: 1fr; 
+        padding: 80px 50px;
+    }
+
+    .CbL{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
     }
 
 }
 
 @media (max-width:500px) {
     .Cbody {
-
         gap: 40px;
-        padding: 80px 50px ;
-
     }
     .Ctitle{
         font-size: 30px;
