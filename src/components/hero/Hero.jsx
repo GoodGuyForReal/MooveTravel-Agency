@@ -22,6 +22,7 @@ const Hero = () => {
         <h4 className={herostyle.alttitle}>Travelling isn't always about running from tings, sometimes it's about running into what you truly want</h4>
        </div>
         <div className={herostyle.SearchBox}>
+         <div className={herostyle.SearchBoxBody}>
           <div className={herostyle.inpBody}>
             <h3 className={herostyle.inptitle}>Destination</h3>
             <input type="search" placeholder='Search any place' className={herostyle.desinp} />
@@ -38,6 +39,7 @@ const Hero = () => {
           </div>
 
           <PrButton />
+          </div>
         </div>
       </div>
     </section>

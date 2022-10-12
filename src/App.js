@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar.jsx';
 import Hero from './components/hero/Hero';
 import Main from './components/main/Main';
 import TextSection from './components/sectiontext/TextSection';
+import C from './components/searchcarsec/C';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Main />
       <TextSection/>
+      <C/>
     </div>
   );
 }

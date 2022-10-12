@@ -3,13 +3,17 @@ import './Button.css'
 
 function Button() {
     return (
-        <button className='ghost-btn'>Get Started</button>
+        <div className="divbtnghost">
+        <button className='ghost-btn'>Watch Trailer</button>
+        </div>
     )
 }
 
 function PrButton() {
     return (
+        <div className="divbtn">
         <button className='primary-btn'>Search Place</button>
+        </div>
     )
 }
 

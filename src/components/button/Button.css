@@ -1,10 +1,12 @@
 .ghost-btn{
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    color: #389de5;
+    background-color: #ffffff;
     border-radius: 6;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 8px 32px;
+    padding: 12px 32px;
+    border: 2px solid #389de5;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .btns {
@@ -21,5 +23,17 @@
     padding: 12px 32px;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 
+
+.divbtn :hover{
+    background-color: #267dbb;
+    transition: 300ms;
+}
+
+.divbtnghost :hover{
+    background-color: #389de5;
+    color: white;
+    transition: 300ms;
+}
