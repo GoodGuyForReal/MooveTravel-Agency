@@ -65,6 +65,7 @@ video {
 
 .SearchBoxBody{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     gap: 20px;
     justify-content: space-between;
@@ -94,3 +95,103 @@ video {
 .inpBody {
     text-align: left;
 }
+
+@media (max-width: 1080px) {
+    
+    .herotitle {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+    .textcontenthero {
+        width: 90%;
+    }
+
+    .heroContent {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    
+    .herotitle {
+        font-size: 55px;
+        margin-bottom: 30px;
+        line-height: 130%;
+    }    
+
+    .SearchBoxBody{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heroContent {
+        bottom: -100px;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    .herotitle {
+        font-size: 35px;
+        line-height: 130%;
+        margin-bottom: 30px;
+    }    
+
+    .SearchBoxBody{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heroContent {
+        bottom: -150px;
+        gap: 30px;
+    }
+
+    .alttitle {
+        font-size: 16px;  
+    }
+
+    .SearchBoxBody{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .heroContent {
+        bottom: -160px;
+        gap: 30px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    
+    .herotitle {
+        font-size: 35px;
+        line-height: 130%;
+        margin-bottom: 30px;
+    }    
+
+    .SearchBoxBody{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heroContent {
+        bottom: -180px;
+        gap: 10px;
+    }
+
+    .alttitle {
+        font-size: 16px;  
+    }
+
+    .SearchBoxBody{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .heroContent {
+        bottom: -160px;
+        gap: 30px;
+    }
+
+}
+

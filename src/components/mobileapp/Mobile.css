@@ -16,7 +16,7 @@
     bottom: 0;
     left: 100px;
     display: flex;
-    
+
 }
 
 .MobileImg {
@@ -45,9 +45,11 @@
     height: 100%;
 }
 
-.mobilebtns{
+.mobilebtns {
     gap: 20px;
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 @media (max-width:1100px) {
@@ -68,4 +70,25 @@
         align-items: center;
     }
 
+    .mobilebtns {
+        justify-content: center;
+    }
+
 }
+
+@media (max-width:500px) {
+
+    .Mimgd {
+        height: 50vh;
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .MobileBody {
+        padding: 50px 20px;
+    }
+
+}
+

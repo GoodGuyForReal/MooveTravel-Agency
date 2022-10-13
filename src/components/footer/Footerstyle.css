@@ -44,3 +44,11 @@
     }
 
 }
+
+@media (max-width: 500px) {
+    
+    .footerBody{
+        padding: 50px 30px;
+    }
+
+}
