@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GoodGuyForReal/MooveTravel-Agency.git/static/css/main.1303947e.css",
-    "main.js": "/GoodGuyForReal/MooveTravel-Agency.git/static/js/main.91b3bbfb.js",
-    "static/media/bg-video.mp4": "/GoodGuyForReal/MooveTravel-Agency.git/static/media/bg-video.6a4c14bc7e8ce20b0ec9.mp4",
-    "static/media/C.mp4": "/GoodGuyForReal/MooveTravel-Agency.git/static/media/C.74731fa548954d070c86.mp4",
-    "static/media/MobileApp.png": "/GoodGuyForReal/MooveTravel-Agency.git/static/media/MobileApp.a15d6f5b0468322f9812.png",
-    "index.html": "/GoodGuyForReal/MooveTravel-Agency.git/index.html",
-    "main.1303947e.css.map": "/GoodGuyForReal/MooveTravel-Agency.git/static/css/main.1303947e.css.map",
-    "main.91b3bbfb.js.map": "/GoodGuyForReal/MooveTravel-Agency.git/static/js/main.91b3bbfb.js.map"
+    "main.css": "/MooveTravel-Agency/static/css/main.1303947e.css",
+    "main.js": "/MooveTravel-Agency/static/js/main.11853adb.js",
+    "static/media/bg-video.mp4": "/MooveTravel-Agency/static/media/bg-video.6a4c14bc7e8ce20b0ec9.mp4",
+    "static/media/C.mp4": "/MooveTravel-Agency/static/media/C.74731fa548954d070c86.mp4",
+    "static/media/MobileApp.png": "/MooveTravel-Agency/static/media/MobileApp.a15d6f5b0468322f9812.png",
+    "index.html": "/MooveTravel-Agency/index.html",
+    "main.1303947e.css.map": "/MooveTravel-Agency/static/css/main.1303947e.css.map",
+    "main.11853adb.js.map": "/MooveTravel-Agency/static/js/main.11853adb.js.map"
   },
   "entrypoints": [
     "static/css/main.1303947e.css",
-    "static/js/main.91b3bbfb.js"
+    "static/js/main.11853adb.js"
   ]
 }
