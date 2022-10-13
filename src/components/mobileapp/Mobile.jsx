@@ -15,7 +15,7 @@ const Mobile = () => {
                 <div className='MobileR'>
                     <h1 className='MobileRtitle'>Download and Get Your First Journey!</h1>
                     <p className='MobileRtext'>Download the Moove.com mobile app for one-touch access to your next travel adventure. With the Moove.com mobile app you’ll get access to hidden features and special offers.</p>
-                <div>
+                <div className='mobilebtns'>
                     <GooglePlay/>
                     <AppStore/>
                 </div>

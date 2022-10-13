@@ -37,3 +37,38 @@
     color: white;
     transition: 300ms;
 }
+
+
+.GooglePlaybtn{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ffffff00;
+    border-radius: 6;
+    padding: 12px 32px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.GooglePlaybtn:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+}
+
+.AppStorebtn{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ffffff00;
+    border-radius: 6;
+    padding: 12px 32px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.AppStorebtn:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 300ms;
+}

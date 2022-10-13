@@ -45,6 +45,11 @@
     height: 100%;
 }
 
+.mobilebtns{
+    gap: 20px;
+    display: flex;
+}
+
 @media (max-width:1100px) {
     .MobileBody {
         grid-template-columns: 1fr;
