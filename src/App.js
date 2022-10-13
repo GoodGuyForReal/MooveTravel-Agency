@@ -7,6 +7,7 @@ import TextSection from './components/sectiontext/TextSection';
 import C from './components/searchcarsec/C';
 import Mobile from './components/mobileapp/Mobile';
 import Footer from './components/footer/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
