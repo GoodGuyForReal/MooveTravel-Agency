@@ -1,22 +1,24 @@
-import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
-    return (
-        <nav className='nav'>
-            <a href='#' className='nav-logo'>MOOVE.</a>
-            <ul>
-                <li className='active'>
-                    <a href='#' className='nav-item'>Home</a>
-                </li>
-                <li>
-                    <a href='#' className='nav-item'>About Us</a>
-                </li>
-                <li>
-                    <a href='#' className='nav-item'>Pricing</a>
-                </li>
-            </ul>
-        </nav>
-    )
+
+function MNavbar() {
+  return (
+    <Navbar bg="none" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">MOOVE.</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link className='active' href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">About Us</Nav.Link>
+            <Nav.Link href="#link">Pricing</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar
+export default MNavbar;
